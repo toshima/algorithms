@@ -1,3 +1,3 @@
-# algorithms
+# Algorithms
 
-This repo contains implementations of various standard algorithms that I can use in coding competitions
+This repo is mainly for personal use. It contains implementations of various standard algorithms for coding competitions.
