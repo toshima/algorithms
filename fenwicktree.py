@@ -11,14 +11,14 @@ class FenwickTree(object):
 
     def update(self, i, x):
         while i <= len(self.data):
-            self.data[i-1] += x
+            self.data[i - 1] += x
             i += i & (-i)
 
     # query prefix sum up to and including index i
     def query(self, i):
         x = 0
         while i > 0:
-            x += self.data[i-1]
+            x += self.data[i - 1]
             i -= i & (-i)
         return x
 

@@ -1,6 +1,5 @@
-
 lo, hi = 0, 1000
-f = lambda x: x**2
+f = lambda x: x ** 2
 target = 200
 
 while lo < hi:
