@@ -10,3 +10,16 @@ while lo < hi:
         hi = mid
 
 print(lo)
+
+
+possible = lambda x: x < 100
+
+while lo < hi:
+    mid = lo + hi + 1 >> 1
+    if possible(mid):
+        lo = mid
+    else:
+        hi = mid - 1
+
+print(lo)
+
